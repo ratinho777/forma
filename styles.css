@@ -1,0 +1,36 @@
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.form{
+    width: 200px;
+    height: 200px;
+    content: "";
+    background-color: aqua;
+    border-radius: .5rem;
+    transition: 1s;
+}
+
+.square{
+    border-radius: .5rem;
+}
+
+.circle{
+    clip-path: circle(50% at 50% 50%);
+    background-color: blue;
+}
+
+.triangle{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.pentagon{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background: #4169e1;
+	clip-path: polygon( 50% 0, 100% 38%, 81% 100%, 19% 100%, 0 38%);
+}
